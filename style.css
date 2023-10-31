@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    border: border-box;
+}
+
+.container{
+    background: url("https://thumbs.dreamstime.com/z/weather-forecast-concept-air-temperature-termometer-cloud-lightening-sun-rainy-clouds-yellow-background-weather-117898896.jpg");
+    height: 100vh;
+    width: 100vw;
+}
+.sub-container{
+    height: 50vh;
+    width: 50vw;
+    background-color: transparent;
+    border: 2px  solid  white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.sub-container h1{
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.sub-container .converter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.col{
+    padding: 15px;
+}
+.col label{
+    font-size: 25px;
+    font-weight: 500;
+}
